@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Table of any number</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="home_style.css">
+<script language="javascript">
+function table()
+{
+var n,sum,i=1;
+n=document.f1.t1.value
+for(i=1;i<=10;i++)
+ {
+ sum=i*n
+ document.write("<h2>"+n+" x "+i+" = "+sum+"<br>"); 
+ }
+}
+</script></head>
+<body>
+<hr width="25%" size="7" >
+<p><h1><strong><font color="white" face="Algerian"><marquee direction="right" ><u>TABLE CALCULATOR</u></marquee></font></strong></h1></p>
+<form name="f1">
+<hr width="50%" size="7" >
+<font color="white" face="Algerian"><h1 class="webtext"  align="center">Enter any number:-<input type="text" name="t1"></font></h1><br>
+<h3 align="center"><input type="button" class="button" value="CALCULATE TABLE" onclick="table()"></h3>
+<hr width="75%" size="7" >
+<br>
+<a href="feedback_form.html"><h2 align="center"><font color="white" face="algerian"><b>SEND FEEDBACK</b></font></h2></a>
+<a href="mailto:smuazzam45@gmail.com"><h2 align="center"><font color="white" face="algerian"><b>SEND MAIL</b></font></h2></a>
+<br>
+<hr size="7">
+<h3 align="right"><font color="white" face="times new roman"><u>By</u>-<u>Muazzam Shaikh</u>&copy;</font></h3>
+</form></body>
+</html>                        
